@@ -1,0 +1,114 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+a {
+  color: #d62828;
+}
+a:hover {
+  color: #f77f00;
+  
+}
+/* Set the font family for any h1, h2, or h3 heading */
+header
+h1 {color: red;
+   font-family:"Playfair display", times,'Times New Roman', Times, serif ;
+    font-size: 60px;
+    
+    text-align:center;}
+nav{
+  text-align: center;
+}
+h2 {
+  font-family:"Playfair display", times,'Times New Roman', Times, serif ;
+  text-align:center;
+  font-size: 60px;
+}
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  color: red;
+  text-align: center;
+  font-size: 60px;
+}
+h4 {
+  font-family: "Playfair Display", Times, serif;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+}
+h5 {
+  font-family: "Playfair Display", Times, serif;
+  color: purple;
+  text-align: center;
+  font-size: 60px;
+}
+h6 {
+  font-family: "Playfair Display", Times, serif;
+  color: blue;
+  text-align: center;
+  font-size: 60px;
+}
+h7 {
+  font-family: "Playfair Display", Times, serif;
+  color: green;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  text-align:center;
+  
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  
+}
+.image-circle{
+  border-radius: 50%;
+}
+.postion {
+  display: block;
+  margin: 0 auto;
+}
+
+
+ img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 2px #003049
+  
+}
+
+hr {
+  border: 2px solid #003049;
+  
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+}
+
+.interest{
+  display: flex;
+  justify-content: center;
+}
