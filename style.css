@@ -25,11 +25,12 @@ nav{
   text-align: center;
 }
 h2 {
+  color:black
   font-family:"Playfair display", times,'Times New Roman', Times, serif ;
   text-align:center;
   font-size: 60px;
 }
-h3 {
+h3 {color:black
   font-family: "Playfair Display", Times, serif;
   color: red;
   text-align: center;
