@@ -122,3 +122,11 @@ hr {
   display: flex;
   justify-content: center;
 }
+
+.artist-interest {
+  text-align: center;
+}
+
+.artist=interest li{
+  text-align: left;
+}
