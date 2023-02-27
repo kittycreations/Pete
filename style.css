@@ -77,13 +77,11 @@ p {
 
 ul {
   text-align: left;
-  margin: 0;
   margin-left: 20px;
 }
 li {
-  text-align: left;
-  margin: 0;
-  padding: 0;
+  margin-left: 20px;
+ 
 }
 /* The div container constrains the content width within the main container to 600px */
 div {
@@ -104,7 +102,7 @@ img {
   max-width: 200px;
   height: auto;
   border: 2px solid #003049;
-   margin: 0px;
+  margin: 0px;
 }
 
 hr {
@@ -113,12 +111,12 @@ hr {
 
 .links {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .interest {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .artist-interest {
