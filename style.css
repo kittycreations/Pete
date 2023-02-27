@@ -18,7 +18,7 @@ a:hover {
 header h1 {
   color: black;
   font-family: "Playfair display", times, 'Times New Roman', Times, serif;
-  font-size: 60px;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -30,43 +30,35 @@ h2 {
   color: black;
   font-family: "Playfair display", times, 'Times New Roman', Times, serif;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 h3 {
   font-family: "Playfair Display", Times, serif;
   color: black;
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 h4 {
   font-family: "Playfair Display", Times, serif;
   color: black;
   text-align: center;
-  font-size: 60px;
+  font-size: 29px;
 }
 
 h5 {
   font-family: "Playfair Display", Times, serif;
   color: black;
   text-align: center;
-  font-size: 60px;
+  font-size: 25px;
 }
 
 h6 {
   font-family: "Playfair Display", Times, serif;
   color: black;
   text-align: center;
-  font-size: 60px;
-}
-
-h7 {
-  font-family: "Playfair Display", Times, serif;
-  color: black;
-  display: flex;
-  justify-content: center;
-  font-size: 60px;
+  font-size: 15px;
 }
 
 article {
@@ -74,7 +66,7 @@ article {
 }
 
 article div {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
@@ -106,7 +98,7 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
-  border: 2px solid #003049; /* missing semicolon here */
+  border: 2px solid #003049;
 }
 
 hr {
@@ -115,16 +107,14 @@ hr {
 
 .links {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .interest {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .artist-interest {
-   padding-left: 300px;
+  padding-left: 300px;
 }
-
-
