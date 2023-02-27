@@ -48,6 +48,7 @@ h4 {
 }
 
 article {
+ text-align: center;
   padding: 50px;
 }
 
@@ -68,7 +69,7 @@ ul {
 li {
   text-align:center;
   margin-left: 20px;
-  margin-right: 15px;
+  margin-right: 0;
  
 }
 /* The div container constrains the content width within the main container to 600px */
