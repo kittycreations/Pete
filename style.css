@@ -93,7 +93,7 @@ img {
   height: auto;
   border: 2px solid #003049;
   justify-content: center;
-  margin-right: 50px;
+  margint: 0px;
  
 }
 
@@ -104,7 +104,7 @@ hr {
 .links {
   display: flex;
   justify-content: center;
-  text-align:left;
+  text-align:center;
 }
 
 .interest {
