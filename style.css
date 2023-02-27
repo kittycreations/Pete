@@ -67,7 +67,7 @@ ul {
   margin-left: 20px;
 }
 li {
-  text-align:center;
+  text-align:left;
   margin-left: 20px;
   margin-right: 0;
  
@@ -87,12 +87,12 @@ div {
 }
 
 img {
+ text-align:center;
   width: 100%;
   max-width: 200px;
   height: auto;
   border: 2px solid #003049;
-  margin-right:23px;
-  margin-left: 40px
+  margin: 0px;
  
 }
 
@@ -102,6 +102,7 @@ hr {
 
 .links {
   display: flex;
+  justify-content: center;
   text-align:center;
 }
 
@@ -111,5 +112,7 @@ hr {
 }
 
 .artist-interest {
+  justify-content: center;
   padding-left: 300px;
+  j
 }
