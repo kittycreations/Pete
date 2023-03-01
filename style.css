@@ -73,7 +73,7 @@ li {
  
  #myimgs{text-align:center; }
   
-.my-images{display:flex;
+.my-images{display:;
   justifycontent:center;
 }
 /* The div container constrains the content width within the main container to 600px */
