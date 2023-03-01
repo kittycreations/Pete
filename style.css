@@ -115,3 +115,8 @@ hr {
   justify-content: center;
   padding-left: 300px;
 }
+ol {
+  display: flex;
+  justify-content: center;
+
+}
