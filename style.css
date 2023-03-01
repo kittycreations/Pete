@@ -71,7 +71,8 @@ li {
   margin-left: 40px;
   margin-right: 0;
  
- myimgs{text-align:center; 
+ #myimgs{text-align:center; }
+  
 .my-images{display:flex;
   justifycontent:center;
 }
