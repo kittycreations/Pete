@@ -17,7 +17,7 @@ a:hover {
 /* Set the font family for any h1, h2, or h3 heading */
 header h1 {
   color: black;
-  font-family: "Playfair display", times, 'Times New Roman', Times, serif;
+  font-family: "Playfair Display", times, 'Times New Roman', Times, serif;
   font-size: 45px;
   text-align: center;
 }
@@ -28,7 +28,7 @@ nav {
 
 h2 {
   color: black;
-  font-family: "Playfair display", times, 'Times New Roman', Times, serif;
+  font-family: "Playfair Display", times, 'Times New Roman', Times, serif;
   text-align: center;
   font-size: 40px;
 }
@@ -48,7 +48,7 @@ h4 {
 }
 
 article {
- text-align: center;
+  text-align: center;
   padding: 50px;
 }
 
@@ -66,18 +66,20 @@ ul {
   text-align: left;
   margin-left: 40px;
 }
+
 li {
-  text-align:left;
+  text-align: left;
   margin-left: 40px;
   margin-right: 0;
- 
-
-/* The div container constrains the content width within the main container to 600px */
-div {
-  text-align: center;
 }
 
-.image-circle{
+/* The div container constrains the content width within the main container to 600px */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.image-circle {
   border-radius: 50%;
 }
 
@@ -86,7 +88,13 @@ div {
   margin: 0 auto;
 }
 
-
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+  border: 2px solid #003049;
+}
 
 hr {
   border: 2px solid #003049;
@@ -95,7 +103,7 @@ hr {
 .links {
   display: flex;
   justify-content: center;
-  text-align:left;
+  text-align: left;
 }
 
 .interest {
@@ -106,10 +114,13 @@ hr {
 .artist-interest {
   justify-content: center;
   padding-left: 300px;
-  j
 }
- #myimgs{ 
-  ;}
-  
-.my-images{   ;
+
+#myimgs {
+  /* Empty selector - remove or define styles */
 }
+
+.my-images {
+  /* Empty selector - remove or define styles */
+}
+
